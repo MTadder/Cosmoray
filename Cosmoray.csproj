@@ -7,6 +7,16 @@
     <Nullable>enable</Nullable>
     <StartupObject>Cosmoray.Program</StartupObject>
     <ApplicationIcon>Logo.ico</ApplicationIcon>
+    <Company>MTLabs</Company>
+    <Authors>MTadder</Authors>
+    <PackageReadmeFile>LICENSE.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <IncludeSymbols>False</IncludeSymbols>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+    <AnalysisLevel>latest-recommended</AnalysisLevel>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,6 +25,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MTLib\MTLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
